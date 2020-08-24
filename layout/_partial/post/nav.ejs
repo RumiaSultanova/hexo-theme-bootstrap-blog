@@ -10,7 +10,6 @@
   <% } %>
   <% if (post.prev){ %>
   <li role="presentation">
-    <a href="<%- url_for(post.prev.path) %>" id="article-nav-newer" class="article-nav-link-wrap">
       <span class="article-nav-link-title"><%= post.prev.title || '(no title)' %></span>
       <i class="fa fa-chevron-right pull-right"></i>
     </a>
